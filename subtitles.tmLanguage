@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>srt</string>
+	</array>
+	<key>name</key>
+	<string>Subtitles</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Timing</string>
+			<key>match</key>
+			<string>..:..:..,...</string>
+			<key>name</key>
+			<string>constant.numeric.text.subtitles</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Arrow</string>
+			<key>match</key>
+			<string>--&gt;</string>
+			<key>name</key>
+			<string>keyword.operator.text.subtitles</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Subtitle number</string>
+			<key>match</key>
+			<string>^[0-9]+$</string>
+			<key>name</key>
+			<string>comment.block.text.subtitles</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Url</string>
+			<key>match</key>
+			<string>(w{3}).(.+).([a-z]{1,3})$</string>
+			<key>name</key>
+			<string>string.text.subtitles</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Sound</string>
+			<key>match</key>
+			<string>\[(.*?)\]</string>
+			<key>name</key>
+			<string>comment.block.text.subtitles</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tag</string>
+			<key>match</key>
+			<string>&lt;("[^"]*"|'[^']*'|[^'"&gt;])*&gt;</string>
+			<key>name</key>
+			<string>markup.underline</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Italic</string>
+			<key>scope</key>
+			<string>markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#839496</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#586e75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Underline</string>
+			<key>scope</key>
+			<string>markup.underline</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#839496</string>
+			</dict>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.subtitles</string>
+	<key>uuid</key>
+	<string>25c0e9c2-5e66-4db0-8cca-d181b03addee</string>
+</dict>
+</plist>

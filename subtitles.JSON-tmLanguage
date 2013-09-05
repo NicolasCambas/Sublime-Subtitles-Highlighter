@@ -1,0 +1,64 @@
+{
+    "fileTypes": [
+        "srt"
+    ], 
+    "name": "Subtitles", 
+    "patterns": [
+        {
+            "comment": "Timing", 
+            "match": "..:..:..,...", 
+            "name": "constant.numeric.text.subtitles"
+        }, 
+        {
+            "comment": "Arrow", 
+            "match": "-->", 
+            "name": "keyword.operator.text.subtitles"
+        }, 
+        {
+            "comment": "Subtitle number", 
+            "match": "^[0-9]+$", 
+            "name": "comment.block.text.subtitles"
+        }, 
+        {
+            "comment": "Url", 
+            "match": "(w{3}).(.+).([a-z]{1,3})$", 
+            "name": "string.text.subtitles"
+        }, 
+        {
+            "comment": "Sound", 
+            "match": "\\[(.*?)\\]", 
+            "name": "comment.block.text.subtitles"
+        }, 
+        {
+            "comment": "Tag", 
+            "match": "<(\"[^\"]*\"|'[^']*'|[^'\">])*>", 
+            "name": "markup.underline"
+        }, 
+        {
+            "name": "Markup: Italic", 
+            "scope": "markup.italic", 
+            "settings": {
+                "fontStyle": "italic", 
+                "foreground": "#839496"
+            }
+        }, 
+        {
+            "name": "Markup: Bold", 
+            "scope": "markup.bold", 
+            "settings": {
+                "fontStyle": "bold", 
+                "foreground": "#586e75"
+            }
+        }, 
+        {
+            "name": "Markup: Underline", 
+            "scope": "markup.underline", 
+            "settings": {
+                "fontStyle": "underline", 
+                "foreground": "#839496"
+            }
+        }
+    ], 
+    "scopeName": "text.subtitles", 
+    "uuid": "25c0e9c2-5e66-4db0-8cca-d181b03addee"
+}
