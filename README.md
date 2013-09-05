@@ -11,8 +11,13 @@ Simply copy the `subtitles.tmLanguage` in the `..\User\` folder of your Sublime 
 
 Feel free to improve, I'm new to that king of things :)
 
+
 ----
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e6fa8a3be615cfab48de581dc31336b0051669c7
 **[FR]**
 
 Coloration syntaxique **Sublime Text** pour les fichiers de sous-titre `.srt`.
