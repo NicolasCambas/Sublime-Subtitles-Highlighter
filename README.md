@@ -9,7 +9,7 @@ The `subtitles.JSON-tmLanguage` file is used to generate `subtitles.tmLanguage` 
 ### Installation
 Simply copy the `subtitles.tmLanguage` in the `..\User\` folder of your Sublime Text package directory.
 
-Feel free to improve, I'm new to that king of things :)
+Feel free to improve, I'm new to that kind of things :)
 
 ----
 
